@@ -61,6 +61,12 @@ console.log(
     : `DIFF ${parsed.original} ${EXPECTED_RESULT.original}`
 );
 
+enum A {
+  aaa = 'aaa',
+}
+
+console.log(A[undefined] ?? 'as');
+
 console.log(
   'values',
   EXPECTED_RESULT.values === parsed.values,
