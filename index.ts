@@ -86,6 +86,7 @@ console.log(
 );
 
 console.log(
+  'AQUI MARCOS',
   parsed.stringWithHighlightText.split(' ').map((text) => {
     if (text.includes('HIGHLIGHT_TEXT')) {
       return `<TextHighlight>${text}</TextHighlight>`;
